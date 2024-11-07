@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour Of DOM</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <style>
+        li{
+            color: red;
+        }
+        #hudai{
+            color: chartreuse;
+        }
+        .emniclass{
+            color: darkviolet;
+        }
+    </style>
+</head>
+<body>
+ <header>
+    <h1>welcome to my dom</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim natus fugiat necessitatibus quisquam placeat maiores autem. Sunt est in cum et earum delectus, fugiat temporibus asperiores ipsa enim amet placeat?</p>
+ </header>
+ <main>
+    <section>
+        <h1>My Awesome Dom de baba</h1>
+        <ul>
+            <li>Jalali set</li>
+            <li>Shafayat</li>
+            <li>bonobash</li>
+            <li>Hello-1</li>
+            <li>Hello-2</li>
+            <li>Hello-3</li>
+        </ul>
+    </section>
+   <section class="fruits-container">
+    <h1 id="hudai">Fruits i like</h1>
+    <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Jack fruit</li>
+    </ul>
+   </section>
+   <section class="notun">
+    <h1>Places i like to visit </h1>
+    <ul>
+        <li class="emniclass">Sundorban</li>
+        <li class="emniclass">Cox's Bazar</li>
+        <li class="emniclass">SaintMartin</li>
+    </ul>
+    
+   </section>
+ </main>
+ <script src="js/dom.js"></script>
+ <script>
+   const final = document.getElementById('hudai').style.backgroundColor='red';
+   console.log(final.innerText);
+   
+ 
+ </script>
+</body>
+</html>
